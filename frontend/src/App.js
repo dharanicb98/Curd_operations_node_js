@@ -1,11 +1,9 @@
-import UsersList from "./pages/users";
 import './App.css';
+import ProtectedRoutes from "./routes";
 
 function App() {
   return (
-    <div className="App">
-       <UsersList />
-    </div>
+     <ProtectedRoutes/>
   );
 }
 
